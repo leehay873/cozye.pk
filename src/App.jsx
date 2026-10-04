@@ -620,7 +620,7 @@ function Home() {
     <section className="bg-secondary/60 py-20">
       <div className="mx-auto max-w-3xl px-4 text-center">
         <h2 className="text-4xl lg:text-5xl">
-          Loved by the Cozyé Girlies
+          Loved by the Cozyé Community
         </h2>
 
         <div className="mt-4 flex justify-center gap-1 text-mocha">
@@ -642,7 +642,7 @@ function Home() {
     <section className="mx-auto max-w-7xl px-4 pt-20 lg:px-8">
       <div className="text-center">
         <h2 className="text-4xl lg:text-5xl">
-          Your Cozy Era Starts Here.
+          Your Cozye Era Starts Here.
         </h2>
 
         {CONTACT.instagram ? (
@@ -1543,7 +1543,7 @@ function Footer() {
       </div>
 
       <p className="border-t border-primary-foreground/15 py-6 text-center text-xs opacity-60">
-        © {new Date().getFullYear()} Cozyé.pk · Women's winter wear, Pakistan
+        © {new Date().getFullYear()} Cozyé.pk · Women's and men's winter wear, Pakistan
       </p>
     </footer>
   );

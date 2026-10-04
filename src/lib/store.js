@@ -9,8 +9,8 @@ import hero from "../assets/hero.jpg";
 
 
 import menWhite from "../assets/men-white.jpg.jpeg";
-import menGray from "../assets/grayboy.jpeg";
-import menBlack from "../assets/blackboys.jpeg";
+import menGray from "../assets/grayyyy.jpeg";
+import menBlack from "../assets/blackkk.jpeg";
 import menHoodie from "../assets/blackgirlboy.jpeg";
 import menBlackSet from "../assets/brown.jpeg";
 
@@ -27,6 +27,20 @@ export const CONTACT = {
 export const FREE_DELIVERY_MIN = 3999;
 
 const C = {
+    white: {
+    name: "White",
+    swatch: "bg-white",
+  },
+
+  gray: {
+    name: "Gray",
+    swatch: "bg-gray-400",
+  },
+
+  black: {
+    name: "Black",
+    swatch: "bg-black",
+  },
   // Women's colors
   mocha: {
     name: "Mocha",
