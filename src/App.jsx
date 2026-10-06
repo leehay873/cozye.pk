@@ -477,7 +477,7 @@ function Home() {
           </h1>
 
           <p className="mt-6 max-w-md text-lg text-muted-foreground">
-            Cozy layers, effortless style and everyday comfort — made for your winter days.
+            Cozy layers, effortless style and everyday comfort made for your winter days.
           </p>
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
@@ -590,7 +590,7 @@ function Home() {
 
     <section className="mx-auto grid max-w-7xl items-center gap-10 px-4 py-24 lg:grid-cols-2 lg:gap-20 lg:px-8">
       <img
-        src={IMAGES.lifestyle}
+        src={IMAGES.burgundy}
         alt="Woman in a cream cord set"
         className="aspect-[4/5] w-full rounded-3xl object-cover shadow-soft"
       />
@@ -605,7 +605,7 @@ function Home() {
         </h2>
 
         <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-          Cozyé.pk is a Pakistani winter fashion brand created for women who believe comfort and style should go together. From soft tracksuits to effortless cord sets, every piece is designed to make everyday winter dressing feel easy, comfortable and beautiful.
+          Cozyé.pk is a Pakistani winter fashion brand created for women and mens who believe comfort and style should go together. From soft tracksuits to effortless cord sets, every piece is designed to make everyday winter dressing feel easy, comfortable and beautiful.
         </p>
 
         <Link
@@ -1309,7 +1309,7 @@ const PAGE_DATA = {
   about: [
     "About Cozyé.pk",
     [
-      "Cozyé.pk is a Pakistani winter fashion brand created for women who believe comfort and style should go together.",
+      "Cozyé.pk is a Pakistani winter fashion brand created for women and men who believe comfort and style should go together.",
       "From soft tracksuits to effortless cord sets, every piece is designed to make everyday winter dressing feel easy, comfortable and beautiful."
     ]
   ],

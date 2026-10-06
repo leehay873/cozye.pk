@@ -1,6 +1,6 @@
 # Cozyé.pk — React + Vite
 
-This is the Cozyé.pk women's winter wear website converted to a standard React.js + Vite project.
+This is the Cozyé.pk women's and mens winter wear website converted to a standard React.js + Vite project.
 
 ## Contact details
 - Phone: 03246476900
