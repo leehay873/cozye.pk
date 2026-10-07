@@ -3,16 +3,19 @@ import cream from "../assets/p-cream.jpg";
 import rose from "../assets/p-rose.jpg";
 import espresso from "../assets/p-espresso.jpg";
 import blue from "../assets/blueeegirl.jpeg";
-import yellow  from "../assets/butteryellow.jpeg";
+import yellow from "../assets/butteryellow.jpeg";
 import burgundy from "../assets/p-burgundy.jpg";
 import detail from "../assets/detail.jpg";
 import lifestyle from "../assets/lifestyle.jpg";
-import hero from "../assets/herooooo.jpeg";
+import hero from "../assets/heroooo.jpeg";
 
-// Men's images
+// ==================================================
+// MEN'S IMAGES
+// ==================================================
+
 import menWhite from "../assets/men-white.jpg.jpeg";
-import menGray from "../assets/grayyyy.jpeg";
 
+import menGray from "../assets/grayyyy.jpeg";
 import menGrayy from "../assets/mangrayprintes.jpeg";
 import menBlack from "../assets/plainblack.jpeg";
 import menHoodie from "../assets/blackgirlboy.jpeg";
@@ -44,13 +47,15 @@ const C = {
     name: "White",
     swatch: "bg-white",
   },
+
   yellow: {
-    name: "Yellow",
-    swatch: "bg-yellow-400",
+    name: "Butter Yellow",
+    swatch: "bg-yellow-300",
   },
+
   blue: {
     name: "Blue",
-    swatch: "bg-white",
+    swatch: "bg-blue-500",
   },
 
   gray: {
@@ -105,11 +110,11 @@ const gallery = (main, name) => [
   },
   {
     src: lifestyle,
-    alt: `${name} styled for a cozy winter day`,
+    alt: `${name} styled for a cozy winter look`,
   },
   {
     src: detail,
-    alt: `${name} soft fabric close-up`,
+    alt: `${name} premium fabric detail`,
   },
   {
     src: hero,
@@ -148,8 +153,6 @@ export const SIZES = ["XS", "S", "M", "L", "XL"];
 
 // ==================================================
 // PRODUCTS
-// MEN'S COLLECTION FIRST
-// WOMEN'S COLLECTION AFTER
 // ==================================================
 
 export const PRODUCTS = [
@@ -181,7 +184,7 @@ export const PRODUCTS = [
     ),
 
     description:
-      "A refined everyday tracksuit designed for men who value comfort without compromising on style. The clean silhouette and versatile neutral palette make it an effortless winter essential.",
+      "A clean and versatile men's tracksuit designed for everyday winter comfort. Featuring a relaxed silhouette and premium fleece construction, it is perfect for casual outings, travel and laid-back weekends.",
 
     fabric:
       "Premium cotton-blend fleece with a soft brushed interior.",
@@ -191,8 +194,8 @@ export const PRODUCTS = [
   },
 
   {
-    slug: "essential-gray-coord-set",
-    name: "Essential Gray Co-ord Set",
+    slug: "essential-gray-mens-coord-set",
+    name: "Essential Gray Men's Co-ord Set",
     category: "mens-coord-sets",
     gender: "men",
     price: 2890,
@@ -208,41 +211,11 @@ export const PRODUCTS = [
 
     images: menGallery(
       menGray,
-      "Essential Gray Co-ord Set"
+      "Essential Gray Men's Co-ord Set"
     ),
 
     description:
-      "A modern gray co-ord set created for effortless everyday dressing. Its relaxed fit, clean finish and timeless color make it perfect for casual days, travel and weekends.",
-
-    fabric:
-      "Soft heavyweight cotton fleece.",
-
-    caption:
-      "Minimal design. Maximum comfort. Made for every day.",
-  },  
-  {
-    slug: "menGrayy",
-    name: "black printed Co-ord Set",
-    category: "mens-coord-sets",
-    gender: "men",
-    price: 2590,
-    badge: "Best Seller",
-    bestSeller: true,
-
-    colors: [
-      C.gray,
-      C.white,
-      C.black,
-      C.mocha,
-    ],
-
-    images: menGallery(
-      menGrayy,
-      "Essential blackprinted Co-ord Set"
-    ),
-
-    description:
-      "A modern blackprinted co-ord set created for effortless everyday dressing. Its relaxed fit, clean finish and timeless color make it perfect for casual days, travel and weekends.",
+      "A contemporary gray co-ord set designed for effortless everyday styling. The relaxed fit and soft fleece construction deliver warmth, comfort and a polished casual look.",
 
     fabric:
       "Soft heavyweight cotton fleece.",
@@ -252,8 +225,39 @@ export const PRODUCTS = [
   },
 
   {
-    slug: "midnight-black-tracksuit",
-    name: "Midnight Black Tracksuit",
+    slug: "black-printed-mens-coord-set",
+    name: "Black Printed Men's Co-ord Set",
+    category: "mens-coord-sets",
+    gender: "men",
+    price: 2850,
+    badge: "Best Seller",
+    bestSeller: true,
+
+    colors: [
+      C.black,
+      C.gray,
+      C.white,
+      C.mocha,
+    ],
+
+    images: menGallery(
+      menGrayy,
+      "Black Printed Men's Co-ord Set"
+    ),
+
+    description:
+      "A statement black co-ord set featuring a contemporary printed design. Created for men who want a relaxed everyday outfit with a modern streetwear-inspired edge.",
+
+    fabric:
+      "Soft heavyweight cotton fleece.",
+
+    caption:
+      "Bold print. Relaxed fit. Modern winter attitude.",
+  },
+
+  {
+    slug: "midnight-black-mens-tracksuit",
+    name: "Midnight Black Men's Tracksuit",
     category: "mens-tracksuits",
     gender: "men",
     price: 2990,
@@ -269,11 +273,11 @@ export const PRODUCTS = [
 
     images: menGallery(
       menBlack,
-      "Midnight Black Tracksuit"
+      "Midnight Black Men's Tracksuit"
     ),
 
     description:
-      "A sleek all-black tracksuit with a contemporary relaxed fit. Designed to move effortlessly from everyday errands to travel and casual outings.",
+      "A sleek all-black men's tracksuit with a comfortable relaxed fit. Designed to transition effortlessly from everyday errands to travel and casual winter outings.",
 
     fabric:
       "Warm premium fleece with a smooth outer finish.",
@@ -283,28 +287,28 @@ export const PRODUCTS = [
   },
 
   {
-    slug: "cozy-black-hoodie-set",
-    name: "Cozy black Hoodie Set",
+    slug: "cozy-black-mens-hoodie-set",
+    name: "Cozy Black Men's Hoodie Set",
     category: "mens-hoodies",
     gender: "men",
-    price: 4650,
+    price: 5050,
     badge: "New",
     isNew: true,
 
     colors: [
-      C.gray,
       C.black,
+      C.gray,
       C.white,
       C.mocha,
     ],
 
     images: menGallery(
       menHoodie,
-      "Cozy black Hoodie Set"
+      "Cozy Black Men's Hoodie Set"
     ),
 
     description:
-      "A premium oversized hoodie paired . Designed for a laid-back winter wardrobe with a comfortable silhouette and elevated everyday appeal.",
+      "A premium oversized hoodie set designed for a relaxed winter wardrobe. Its heavyweight fleece construction provides warmth and comfort while maintaining a clean contemporary silhouette.",
 
     fabric:
       "Heavyweight brushed fleece.",
@@ -314,8 +318,8 @@ export const PRODUCTS = [
   },
 
   {
-    slug: "coco brown-essential-winter-set",
-    name: "Coco Brown Essential Winter Set",
+    slug: "cocoa-brown-mens-winter-set",
+    name: "Cocoa Brown Men's Winter Set",
     category: "mens-coord-sets",
     gender: "men",
     price: 2890,
@@ -323,25 +327,25 @@ export const PRODUCTS = [
     badge: "Sale",
 
     colors: [
+      C.cocoa,
       C.black,
       C.gray,
-      C.white,
       C.espresso,
     ],
 
     images: menGallery(
       menBlackSet,
-      "Coco Brown Essential Winter Set"
+      "Cocoa Brown Men's Winter Set"
     ),
 
     description:
-      "A sleek winter co-ord designed around timeless comfort. The understated black finish makes it an easy choice for everyday styling.",
+      "A sophisticated cocoa-brown co-ord set designed for effortless winter dressing. The warm neutral tone and comfortable silhouette make it an easy everyday essential.",
 
     fabric:
       "Premium soft cotton fleece.",
 
     caption:
-      "Timeless black. Elevated comfort. Everyday essential.",
+      "Warm tones. Elevated comfort. Everyday essential.",
   },
 
   // ==================================================
@@ -353,7 +357,7 @@ export const PRODUCTS = [
     name: "Mocha Luxe Tracksuit",
     category: "tracksuits",
     gender: "women",
-    price: 2450,
+    price: 2850,
     badge: "Best Seller",
     bestSeller: true,
 
@@ -370,7 +374,7 @@ export const PRODUCTS = [
     ),
 
     description:
-      "A soft fleece hoodie set in a warm mocha tone. Designed for cozy days, relaxed weekends and effortless winter styling.",
+      "A soft and cozy women's fleece tracksuit in a warm mocha tone. Designed with a relaxed silhouette for comfortable everyday wear, weekend plans and effortless winter styling.",
 
     fabric:
       "Brushed fleece, soft on the inside and warm without feeling bulky.",
@@ -384,7 +388,7 @@ export const PRODUCTS = [
     name: "Cloud Cream Cord Set",
     category: "cord-sets",
     gender: "women",
-    price: 2350,
+    price: 2850,
     badge: "New",
     isNew: true,
     bestSeller: true,
@@ -402,26 +406,26 @@ export const PRODUCTS = [
     ),
 
     description:
-      "A refined ribbed knit co-ord featuring a relaxed top and wide-leg trousers. Soft, elegant and effortless for everyday winter dressing.",
+      "A refined cream co-ord set featuring a relaxed top and coordinated trousers. Its soft texture and neutral tone make it an effortless choice for elevated everyday winter dressing.",
 
     fabric:
-      "Rib-knit blend with a soft, cozy hand-feel.",
+      "Soft corduroy blend with a cozy hand-feel.",
 
     caption:
       "Soft textures. Effortless elegance. Winter, your way.",
   },
 
   {
-    slug: "blue",
+    slug: "blue-oversized-tracksuit",
     name: "Blue Oversized Tracksuit",
     category: "tracksuits",
     gender: "women",
-    price: 2450,
+    price: 2850,
     badge: "Best Seller",
     bestSeller: true,
 
     colors: [
-      C.rose,
+      C.blue,
       C.cream,
       C.mocha,
       C.black,
@@ -433,13 +437,13 @@ export const PRODUCTS = [
     ),
 
     description:
-      "An oversized sweatshirt and relaxed straight-leg trouser set in a soft dusty rose. Feminine, comfortable and effortlessly stylish.",
+      "A relaxed oversized tracksuit in a fresh blue tone. Designed for women who love comfortable silhouettes with a clean, contemporary winter aesthetic.",
 
     fabric:
-      "Cotton-blend terry fleece with a brushed interior.",
+      "Cotton-blend fleece with a soft brushed interior.",
 
     caption:
-      "Oversized comfort with a soft feminine touch.",
+      "Oversized comfort with a fresh winter touch.",
   },
 
   {
@@ -447,14 +451,14 @@ export const PRODUCTS = [
     name: "Espresso Everyday Set",
     category: "cord-sets",
     gender: "women",
-    price: 2350,
+    price: 2850,
     compareAt: 5990,
     badge: "Sale",
 
     colors: [
-      C.cocoa,
-      C.mocha,
       C.espresso,
+      C.mocha,
+      C.cocoa,
       C.cream,
     ],
 
@@ -464,7 +468,7 @@ export const PRODUCTS = [
     ),
 
     description:
-      "A sophisticated cropped zip jacket paired with tailored straight trousers in rich espresso corduroy. Polished enough for outings and comfortable enough for every day.",
+      "A sophisticated espresso-toned co-ord set designed for polished everyday styling. The rich neutral shade pairs effortlessly with winter accessories and outerwear.",
 
     fabric:
       "Soft fine-wale corduroy.",
@@ -473,22 +477,18 @@ export const PRODUCTS = [
       "Rich tones. Refined comfort. Made to be seen.",
   },
 
-  // ==================================================
-  // WOMEN'S HOODIE
-  // ==================================================
-
   {
-    slug:"yellow",
-    name: " Butter Yellow Oversized Hoodie Set",
+    slug: "butter-yellow-oversized-hoodie-set",
+    name: "Butter Yellow Oversized Hoodie Set",
     category: "hoodies",
     gender: "women",
-    price: 2350,
+    price: 2800,
     badge: "New",
     isNew: true,
     bestSeller: true,
 
     colors: [
-      C.wine,
+      C.yellow,
       C.cream,
       C.mocha,
       C.black,
@@ -502,7 +502,7 @@ export const PRODUCTS = [
     ),
 
     description:
-      "A premium relaxed-fit hoodie set designed for cozy winter days. The soft fleece construction and easy silhouette make it a wardrobe essential for everyday wear.",
+      "A premium oversized hoodie set in a soft butter-yellow shade. Designed for cozy winter days, the relaxed silhouette offers everyday comfort while adding a fresh pop of color to your wardrobe.",
 
     fabric:
       "Heavyweight brushed fleece with soft ribbed cuffs and hem.",
@@ -510,11 +510,41 @@ export const PRODUCTS = [
     caption:
       "Cozy layers. Beautiful colors. Everyday confidence.",
   },
+
+  {
+    slug: "burgundy-essential-sweatshirt",
+    name: "Burgundy Essential Sweatshirt",
+    category: "sweatshirts",
+    gender: "women",
+    price: 2790,
+    badge: "New",
+    isNew: true,
+
+    colors: [
+      C.wine,
+      C.black,
+      C.cream,
+      C.gray,
+    ],
+
+    images: gallery(
+      burgundy,
+      "Burgundy Essential Sweatshirt"
+    ),
+
+    description:
+      "A classic oversized sweatshirt in a rich burgundy tone. Designed as an easy everyday layer, it delivers warmth, comfort and effortless winter styling.",
+
+    fabric:
+      "Soft cotton-blend fleece with a brushed interior.",
+
+    caption:
+      "Easy layers. Cozy comfort. Effortless everyday style.",
+  },
 ];
 
 // ==================================================
 // CATEGORIES
-// MEN'S FIRST
 // ==================================================
 
 export const CATEGORIES = {
@@ -527,7 +557,7 @@ export const CATEGORIES = {
     title: "Men's Tracksuits",
     h1: "Men's Winter Tracksuits",
     blurb:
-      "Premium comfort and effortless style for every winter day.",
+      "Premium men's tracksuits designed for everyday comfort, warmth and effortless winter style.",
     filter: (p) =>
       p.category === "mens-tracksuits" &&
       p.gender === "men",
@@ -538,7 +568,7 @@ export const CATEGORIES = {
     title: "Men's Co-ord Sets",
     h1: "Men's Winter Co-ord Sets",
     blurb:
-      "Clean silhouettes, premium comfort and effortless everyday style.",
+      "Modern coordinated sets combining relaxed silhouettes, premium comfort and effortless everyday style.",
     filter: (p) =>
       p.category === "mens-coord-sets" &&
       p.gender === "men",
@@ -549,7 +579,7 @@ export const CATEGORIES = {
     title: "Men's Hoodies",
     h1: "Men's Winter Hoodies",
     blurb:
-      "Warm, relaxed layers designed for modern everyday comfort.",
+      "Premium hoodies and relaxed layers designed to keep you warm while maintaining a modern everyday look.",
     filter: (p) =>
       p.category === "mens-hoodies" &&
       p.gender === "men",
@@ -561,43 +591,43 @@ export const CATEGORIES = {
   // ==================================================
 
   tracksuits: {
-    title: "Winter Tracksuits",
-    h1: "Women's Winter Tracksuits",
+    title: " Tracksuits",
+    h1: "men's Winter Tracksuits",
     blurb:
-      "Comfort meets effortless style in our signature winter tracksuits.",
+      "Comfort meets effortless style in our collection of cozy men's winter tracksuits.",
     filter: (p) =>
       p.category === "tracksuits" &&
-      p.gender === "women",
-    image: mocha,
+      p.gender === "men",
+    image: menGray,
   },
 
   "cord-sets": {
     title: "Cord Sets",
-    h1: "Women's Winter Cord Sets",
+    h1: "men's Winter Cord Sets",
     blurb:
-      "Soft textures, beautiful tones and effortless coordinated dressing.",
+      "Soft textures, rich winter tones and effortlessly coordinated silhouettes made for everyday wear.",
     filter: (p) =>
       p.category === "cord-sets" &&
-      p.gender === "women",
-    image: cream,
+      p.gender === "men",
+    image: menBlack,
   },
 
   hoodies: {
     title: "Women's Hoodies",
     h1: "Women's Winter Hoodies",
     blurb:
-      "Cozy oversized layers made for your everyday winter wardrobe.",
+      "Cozy oversized hoodies and matching sets designed for relaxed, comfortable winter styling.",
     filter: (p) =>
       p.category === "hoodies" &&
       p.gender === "women",
-    image: burgundy,
+    image: yellow,
   },
 
   sweatshirts: {
-    title: "Sweatshirts",
-    h1: "Women's Sweatshirts",
+    title: "Women's Sweatshirts",
+    h1: "Women's Winter Sweatshirts",
     blurb:
-      "Everyday cozy essentials designed for effortless winter styling.",
+      "Everyday cozy sweatshirts designed for effortless layering and comfortable winter styling.",
     filter: (p) =>
       p.category === "sweatshirts" &&
       p.gender === "women",
@@ -612,16 +642,16 @@ export const CATEGORIES = {
     title: "Best Sellers",
     h1: "Best Sellers",
     blurb:
-      "The pieces everyone is loving this winter.",
+      "Discover the winter favorites loved across our men's and women's collections.",
     filter: (p) => !!p.bestSeller,
-    image: rose,
+    image: blue,
   },
 
   "new-arrivals": {
     title: "New Arrivals",
     h1: "New Arrivals",
     blurb:
-      "Fresh winter layers designed for the new season.",
+      "Fresh winter styles for both men and women, designed for the new season.",
     filter: (p) => !!p.isNew,
     image: espresso,
   },
@@ -630,11 +660,47 @@ export const CATEGORIES = {
     title: "Sale",
     h1: "Winter Sale",
     blurb:
-      "Your favorite cozy pieces at softer prices.",
+      "Shop selected men's and women's winter essentials at special prices.",
     filter: (p) => !!p.compareAt,
     image: espresso,
   },
 };
+
+// ==================================================
+// SHOP BY CATEGORY
+// EXACTLY 4 CARDS
+// 2 MEN + 2 WOMEN
+// ==================================================
+
+export const SHOP_CATEGORIES = [
+  {
+    label: "Men's Tracksuits",
+    slug: "mens-tracksuits",
+    gender: "men",
+    image: menWhite,
+  },
+
+  {
+    label: "Men's Hoodies",
+    slug: "mens-hoodies",
+    gender: "men",
+    image: menHoodie,
+  },
+
+  {
+    label: "Women's Tracksuits",
+    slug: "tracksuits",
+    gender: "women",
+    image: mocha,
+  },
+
+  {
+    label: "Women's Cord Sets",
+    slug: "cord-sets",
+    gender: "women",
+    image: cream,
+  },
+];
 
 // ==================================================
 // IMAGES
@@ -654,10 +720,10 @@ export const IMAGES = {
   blue,
   yellow,
 
-
   // Men's
   menWhite,
   menGray,
+  menGrayy,
   menBlack,
   menHoodie,
   menBlackSet,
