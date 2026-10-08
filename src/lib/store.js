@@ -8,6 +8,7 @@ import burgundy from "../assets/p-burgundy.jpg";
 import detail from "../assets/detail.jpg";
 import lifestyle from "../assets/lifestyle.jpg";
 import hero from "../assets/heroooo.jpeg";
+import blackhoodiee from "../assets/blackgirlhood.jpeg"
 
 // ==================================================
 // MEN'S IMAGES
@@ -149,7 +150,7 @@ const menGallery = (main, name) => [
 // SIZES
 // ==================================================
 
-export const SIZES = ["XS", "S", "M", "L", "XL"];
+export const SIZES = [ "S", "M", "L", "XL"];
 
 // ==================================================
 // PRODUCTS
@@ -193,36 +194,36 @@ export const PRODUCTS = [
       "Clean lines. Premium comfort. Everyday confidence.",
   },
 
-  {
-    slug: "essential-gray-mens-coord-set",
-    name: "Essential Gray Men's Co-ord Set",
-    category: "mens-coord-sets",
-    gender: "men",
-    price: 2890,
-    badge: "Best Seller",
-    bestSeller: true,
+  // {
+  //   slug: "essential-gray-mens-coord-set",
+  //   name: "Essential Gray Men's Co-ord Set",
+  //   category: "mens-coord-sets",
+  //   gender: "men",
+  //   price: 2890,
+  //   badge: "Best Seller",
+  //   bestSeller: true,
 
-    colors: [
-      C.gray,
-      C.white,
-      C.black,
-      C.mocha,
-    ],
+  //   colors: [
+  //     C.gray,
+  //     C.white,
+  //     C.black,
+  //     C.mocha,
+  //   ],
 
-    images: menGallery(
-      menGray,
-      "Essential Gray Men's Co-ord Set"
-    ),
+  //   images: menGallery(
+  //     menGray,
+  //     "Essential Gray Men's Co-ord Set"
+  //   ),
 
-    description:
-      "A contemporary gray co-ord set designed for effortless everyday styling. The relaxed fit and soft fleece construction deliver warmth, comfort and a polished casual look.",
+  //   description:
+  //     "A contemporary gray co-ord set designed for effortless everyday styling. The relaxed fit and soft fleece construction deliver warmth, comfort and a polished casual look.",
 
-    fabric:
-      "Soft heavyweight cotton fleece.",
+  //   fabric:
+  //     "Soft heavyweight cotton fleece.",
 
-    caption:
-      "Minimal design. Maximum comfort. Made for every day.",
-  },
+  //   caption:
+  //     "Minimal design. Maximum comfort. Made for every day.",
+  // },
 
   {
     slug: "black-printed-mens-coord-set",
@@ -352,36 +353,36 @@ export const PRODUCTS = [
   // WOMEN'S COLLECTION
   // ==================================================
 
-  {
-    slug: "mocha-luxe-tracksuit",
-    name: "Mocha Luxe Tracksuit",
-    category: "tracksuits",
-    gender: "women",
-    price: 2850,
-    badge: "Best Seller",
-    bestSeller: true,
+  // {
+  //   slug: "mocha-luxe-tracksuit",
+  //   name: "Mocha Luxe Tracksuit",
+  //   category: "tracksuits",
+  //   gender: "women",
+  //   price: 2850,
+  //   badge: "Best Seller",
+  //   bestSeller: true,
 
-    colors: [
-      C.mocha,
-      C.cocoa,
-      C.cream,
-      C.black,
-    ],
+  //   colors: [
+  //     C.mocha,
+  //     C.cocoa,
+  //     C.cream,
+  //     C.black,
+  //   ],
 
-    images: gallery(
-      mocha,
-      "Mocha Luxe Tracksuit"
-    ),
+  //   images: gallery(
+  //     mocha,
+  //     "Mocha Luxe Tracksuit"
+  //   ),
 
-    description:
-      "A soft and cozy women's fleece tracksuit in a warm mocha tone. Designed with a relaxed silhouette for comfortable everyday wear, weekend plans and effortless winter styling.",
+  //   description:
+  //     "A soft and cozy women's fleece tracksuit in a warm mocha tone. Designed with a relaxed silhouette for comfortable everyday wear, weekend plans and effortless winter styling.",
 
-    fabric:
-      "Brushed fleece, soft on the inside and warm without feeling bulky.",
+  //   fabric:
+  //     "Brushed fleece, soft on the inside and warm without feeling bulky.",
 
-    caption:
-      "Your new favorite winter uniform.",
-  },
+  //   caption:
+  //     "Your new favorite winter uniform.",
+  // },
 
   {
     slug: "cloud-cream-cord-set",
@@ -511,36 +512,31 @@ export const PRODUCTS = [
       "Cozy layers. Beautiful colors. Everyday confidence.",
   },
 
-  {
-    slug: "burgundy-essential-sweatshirt",
-    name: "Burgundy Essential Sweatshirt",
-    category: "sweatshirts",
-    gender: "women",
-    price: 2790,
-    badge: "New",
-    isNew: true,
+  // {
+  //   slug: "blackhoodiee",
+  //   name: "Burgundy Essential Sweatshirt",
+  //   category: "hoodie",
+  //   gender: "women",
+  //   price: 2790,
+  //   badge: "New",
+  //   isNew: true,
 
-    colors: [
-      C.wine,
-      C.black,
-      C.cream,
-      C.gray,
-    ],
 
-    images: gallery(
-      burgundy,
-      "Burgundy Essential Sweatshirt"
-    ),
 
-    description:
-      "A classic oversized sweatshirt in a rich burgundy tone. Designed as an easy everyday layer, it delivers warmth, comfort and effortless winter styling.",
+  //   images: gallery(
+  //     blackhoodiee,
+  //     "black Essential hoodie"
+  //   ),
 
-    fabric:
-      "Soft cotton-blend fleece with a brushed interior.",
+  //   description:
+  //     "A classic oversized sweatshirt in a rich black tone. Designed as an easy everyday layer, it delivers warmth, comfort and effortless winter styling.",
 
-    caption:
-      "Easy layers. Cozy comfort. Effortless everyday style.",
-  },
+  //   fabric:
+  //     "Soft cotton-blend fleece with a brushed interior.",
+
+  //   caption:
+  //     "Easy layers. Cozy comfort. Effortless everyday style.",
+  // },
 ];
 
 // ==================================================
